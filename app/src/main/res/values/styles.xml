@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RegistrationLabelStyle">
+        <item name="android:textSize">@dimen/registration_label_font_size</item>
+        <item name="android:textColor">@color/colorRegistrationFieldLabels</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="AddNewUserButtonStyle">
+        <item name="android:textColor">#fff</item>
+    </style>
+    <style name="spinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">#F6F8FA</item>
+    </style>
+    <style name="InputStyle">
+        <item name="android:layout_height">@dimen/input_height</item>
+        <item name="android:textCursorDrawable">@drawable/black_cursor</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@drawable/text_input_border</item>
+        <item name="android:paddingLeft">@dimen/input_padding_left</item>
+        <item name="android:paddingRight">@dimen/input_padding_right</item>
+    </style>
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical|start"
+
+            >
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REGISTRATION FORM"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorRegistrationLabels"
+                ></TextView>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <include layout="@layout/first_name"></include>
+
+                <include layout="@layout/last_name"></include>
+            </LinearLayout>
+
+            <include
+                layout="@layout/address_client"
+                />
+            <include
+                layout="@layout/email"
+                ></include>
+            <include
+                layout="@layout/contact_client"
+                />
+            <include
+                layout="@layout/business_relation"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:id="@+id/add_client_user"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/input_margin_top"
+                    android:background="@drawable/register_button_border"
+                    android:text="Add"
+                    android:textColor="@android:color/white"
+
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

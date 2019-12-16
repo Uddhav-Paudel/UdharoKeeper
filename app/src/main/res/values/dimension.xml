@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="registration_label_font_size">15sp</dimen>
+    <dimen name="input_height">40sp</dimen>
+    <dimen name="input_padding_left">5sp</dimen>
+    <dimen name="input_padding_right">5sp</dimen>
+    <dimen name="input_cursor_width">1sp</dimen>
+    <dimen name="input_cursor_margin_top">-5sp</dimen>
+    <dimen name="input_cursor_margin_bottom">-3sp</dimen>
+    <dimen name="input_margin_right">5sp</dimen>
+    <dimen name="input_margin_top">10sp</dimen>
+    <dimen name="margin_standard">20sp</dimen>
+</resources>

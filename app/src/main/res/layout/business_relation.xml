@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/label_input_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginRight="@dimen/input_margin_right"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/business_relation"
+        android:text="Business relation"
+        style="@style/RegistrationLabelStyle"
+
+        >
+    </TextView>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:id="@+id/business_relation"
+        android:entries="@array/business_relation"
+        android:prompt="@string/relation_prompt"
+        android:popupBackground="#F6F8FA"
+        style="@style/Widget.AppCompat.Light.DropDownItem.Spinner"
+        android:backgroundTint="#000"
+        />
+</LinearLayout>

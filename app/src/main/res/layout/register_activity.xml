@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical|start"
+
+            >
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REGISTRATION FORM"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorRegistrationLabels"
+                ></TextView>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <include layout="@layout/first_name"></include>
+
+                <include layout="@layout/last_name"></include>
+            </LinearLayout>
+
+            <include
+                layout="@layout/email"
+                ></include>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/input_margin_top"
+                android:weightSum="2">
+
+                <include layout="@layout/password"></include>
+
+                <include layout="@layout/confirm_password"></include>
+            </LinearLayout>
+            <CheckBox
+                android:id="@+id/check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/input_margin_top"
+                android:text="I agree to the terms and condition"
+                android:buttonTint="@color/colorRegistrationLabels"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:id="@+id/register_user"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/input_margin_top"
+                    android:background="@drawable/register_button_border"
+                    android:text="Register"
+                    android:textColor="@android:color/white"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/register_2_login"
+                    android:layout_marginLeft="@dimen/margin_standard"
+                    android:text="@string/register_2_login"
+                    style="@style/RegistrationLabelStyle"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

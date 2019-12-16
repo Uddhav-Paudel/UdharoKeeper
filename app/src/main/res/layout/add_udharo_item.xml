@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/udharo_item"
+        layout="@layout/description_udharo_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </include>
+
+
+    <Button
+        android:id="@+id/add_udharo_item_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorRegistrationLabels"
+        android:text="Save another item"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="@+id/add_udharo_item_price"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/add_udharo_item_price"
+        app:layout_constraintTop_toBottomOf="@+id/add_udharo_item_price" />
+
+    <EditText
+        android:id="@+id/add_udharo_item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/input_height"
+        android:background="@drawable/text_input_border"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/udharo_item"
+        app:layout_constraintStart_toStartOf="@+id/udharo_item"
+        app:layout_constraintTop_toBottomOf="@+id/udharo_item" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

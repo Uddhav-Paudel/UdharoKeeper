@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Udharo keeper</string>
+    <string name="login_button">login_button</string>
+    <string name="register_2_login">
+        <u>Already have an account?</u>
+    </string>
+    <string-array name="business_relation">
+        <item>Creditor</item>
+        <item>Debtors</item>
+    </string-array>
+    <string name="relation_prompt">Choose a business relation</string>
+</resources>

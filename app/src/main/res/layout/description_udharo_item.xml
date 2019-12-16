@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/label_input_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginRight="@dimen/input_margin_right"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@+id/description_edit_udharo_item"
+        android:text="Description"
+        style="@style/RegistrationLabelStyle"
+        >
+    </TextView>
+    <EditText
+        android:id="@+id/description_edit_udharo_item"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:background="@drawable/text_input_border"
+        android:inputType="textMultiLine"
+        android:height="@dimen/input_height"
+        android:textCursorDrawable="@drawable/black_cursor"
+        android:paddingLeft="@dimen/input_padding_left"
+        android:paddingRight="@dimen/input_padding_right"
+        >
+
+    </EditText>
+</LinearLayout>
