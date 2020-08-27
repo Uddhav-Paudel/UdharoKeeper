@@ -23,7 +23,7 @@ class LoginActivity: AppCompatActivity() {
             FirebaseAuth.getInstance().signInWithEmailAndPassword(login_username.text.toString(), login_pwd.text.toString())
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
-                        // Sign in success, update UI with the signed-in user's information oks
+                        // Sign in success, update UI with the signed-in user's information oks done
 
                         val user = FirebaseAuth.getInstance().currentUser;
                         Toast.makeText(this, "Authentication succeed!!!",Toast.LENGTH_LONG).show()
