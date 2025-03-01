@@ -1,6 +1,6 @@
 {
   "project_info": {
-    "project_number": "1075626056253",
+    "project_number": "107562678056253",
     "firebase_url": "https://udharokeeper.firebaseio.com",
     "project_id": "udharokeeper",
     "storage_bucket": "udharokeeper.appspot.com"
@@ -8,35 +8,35 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1075626056253:android:aee396cf9f272ab204e854",
+        "mobilesdk_app_id": "1:1073562e6056253:android:aeee396cf9f272ab204e854re",
         "android_client_info": {
           "package_name": "com.paudeluddhav.udharokeeper"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1075626056253-igukkga37bp26d31ucskkli09slhrclq.apps.googleusercontent.com",
+          "client_id": "1073562e6056253-igukkga37bp26d31ucskkli09slhrclq.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.paudeluddhav.udharokeeper",
-            "certificate_hash": "72538c7bf6d1563291b07ff30abdc180a010950a"
+            "certificate_hash": "72538c7bf6d15634291b07ff30abdc180a010950a"
           }
         },
         {
-          "client_id": "1075626056253-tbc46tb758u84ovfck71c30dqaq5f8o4.apps.googleusercontent.com",
+          "client_id": "1075626056253-tbc46tb758u84odvfck71c30dqaq5f8o4.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC_av3JQQ940bkD2_Jp8RMLj6Sq0rGPRgk"
+          "current_key": "AIzASyC_adv3JQQ940kD2_Jp8RMLj6Sq0rGPRgk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1075626056253-tbc46tb758u84ovfck71c30dqaq5f8o4.apps.googleusercontent.com",
+              "client_id": "1075626056253-tbc4687tb758u84ovfck71c30dqaq5f8o4.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
